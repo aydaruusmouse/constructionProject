@@ -122,7 +122,6 @@
 
   <!-- Main Footer -->
   <footer class="main-footer">
-    <strong>Developed by <a href="https://www.linkedin.com/feed/">Aidarous</a>.</strong>
     
     <div class="float-right d-none d-sm-inline-block">
       <b> Blue Star Construction Company</b>
