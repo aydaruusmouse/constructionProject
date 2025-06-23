@@ -26,7 +26,7 @@ $subcontractor_cost_result = $conn->query("SELECT SUM(total_rate) as total_subco
 $subcontractor_cost = $subcontractor_cost_result->num_rows > 0 ? $subcontractor_cost_result->fetch_array()['total_subcontractor_cost'] : 0;
 
 // Calculate remaining project budget
-$total_cost = $material_cost  + $subcontractor_cost;
+$total_cost = $material_cost  + $subcontractor_cost + $workplan_cost;
 $remaining_budget = $project_cost - $total_cost - $workplan_cost;
 
 
