@@ -53,11 +53,14 @@ header("location:index.php?page=home");
     font-size: 2rem;
     font-weight: bold;
   }
+  #logo_name {
+    color: blue;
+  }
 </style>
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="#" class="text-white">BLUE STAR CONSTRUCTION CO</a>
+    <a href="#" class="text-white" id="logo_name">BLUE STAR CONSTRUCTION CO</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
